@@ -1,0 +1,36 @@
+{
+  "name": "shortcut-css",
+  "version": "1.0.0",
+  "description": "Shortcut.css is the first css framework it support your stylesheet, Contain custom & built-in variables and classes ",
+  "main": "uation you want with css shortcuts for more flexiblity & stability.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moumen-soliman/Shortcut.css.git"
+  },
+  "keywords": [
+    "shortcut.css",
+    "shortcutcss",
+    "css",
+    "framework",
+    "css",
+    "library",
+    "css",
+    "helper",
+    "shortcut-css",
+    "shortcut.css",
+    "css",
+    "web",
+    "design",
+    "ui",
+    "developer"
+  ],
+  "author": "Mo'men Soliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moumen-soliman/Shortcut.css/issues"
+  },
+  "homepage": "https://github.com/moumen-soliman/Shortcut.css#readme"
+}
