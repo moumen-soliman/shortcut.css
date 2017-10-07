@@ -8,6 +8,8 @@
 <code>$ git clone https://github.com/moumen-soliman/shortcut.css.git</code><br>
 <code>$ npm install shortcut-css</code>
 <hr>
+<h3><a href="http://moumensoliman.com/shortcut-css/docs.html">Check full documentation</a></h3>
+<hr>
 <h3>What is <b>Shortcut.css</b> Contain ?</h3><br>
             <div>
                 <h4><b>Built-in Styles &nbsp; <a href="http://moumensoliman.com/shortcut-css/built-in-styles.html">Check full Built-in Styles</a></b></h4> <br>
@@ -66,7 +68,6 @@
             <div style="width:50%">
                 <h4><b>Built-in Variables</b></h4><br>
                 <ul>
-                    <li><b>--custom-align:</b> your-value;</li>
                     <li><b>--cucstom-margin:</b> your-value;</li>
                     <li><b>--cucstom-padding:</b> your-value;</li>
                     <li><b>--cucstom-width:</b> your-value;</li>

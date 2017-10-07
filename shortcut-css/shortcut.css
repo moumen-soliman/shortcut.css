@@ -1,4 +1,4 @@
-/* shortcut.css v1.0.0 | MIT License | github.com/moumensoliman/shortcut 
+/* shortcut.css v1.0.0 | github.com/moumensoliman/shortcut 
    	-------------------------------
    Shortcut.css framework contain:
    	-------------------------------
@@ -6,12 +6,11 @@
    		add your custom variables
    	-------------------------------
    	2- --built-in variables
- 		--custom-align
-		--cucstom-margin
-		--cucstom-padding
-		--cucstom-width
-		--cucstom-min-width
-		--cucstom-max-width
+		--custom-margin
+		--custom-padding
+		--custom-width
+		--custom-min-width
+		--custom-max-width
 		--custom-bg
 		--custom-background-attachment
 		--custom-bg-pos
@@ -24,9 +23,9 @@
 		--custom-height
 		--custom-max-height
 		--custom-min-height
-		--cucstom-letter-spacing
-		--cucstom-line-height
-		--cucstom-list-style
+		--custom-letter-spacing
+		--custom-line-height
+		--custom-list-style
 		--custom-outline
 		--custom-perspective
 		--custom-quotes
@@ -112,12 +111,11 @@
   /**********
   --built-in variables
   **********/
-  --custom-align: ;
-  --cucstom-margin: ;
-  --cucstom-padding: ;
-  --cucstom-width: ;
-  --cucstom-min-width: ;
-  --cucstom-max-width: ;
+  --custom-margin: ;
+  --custom-padding: ;
+  --custom-width: ;
+  --custom-min-width: ;
+  --custom-max-width: ;
   --custom-bg: ;
   --custom-background-attachment: ;
   --custom-bg-pos: ;
@@ -130,9 +128,9 @@
   --custom-height: ;
   --custom-max-height: ;
   --custom-min-height: ;
-  --cucstom-letter-spacing: ;
-  --cucstom-line-height: ;
-  --cucstom-list-style: ;
+  --custom-letter-spacing: ;
+  --custom-line-height: ;
+  --custom-list-style: ;
   --custom-outline: ;
   --custom-perspective: ;
   --custom-quotes: ;
@@ -183,13 +181,6 @@ builtin-style
 /**********
  align-content 
 **********/
-.align-custom{
-	-webkit-align-content: var(--custom-align) !important;
-	-moz-align-content: var(--custom-align) !important;
-	-ms-align-content: var(--custom-align) !important;
-	-o-align-content: var(--custom-align) !important;
-	align-content: var(--custom-align) !important;
-}
 .align-inherit{
 	-webkit-align-content: inherit !important;
 	-moz-align-content: inherit !important;
@@ -1857,22 +1848,22 @@ justify-content
 letter-spacing
 **********/
 .letter-spacing-custom{
-	-webkit-letter-spacing: var(--cucstom-letter-spacing) !important;
-	-moz-letter-spacing: var(--cucstom-letter-spacing) !important;
-	-ms-letter-spacing: var(--cucstom-letter-spacing) !important;
-	-o-letter-spacing: var(--cucstom-letter-spacing) !important;
-	letter-spacing: var(--cucstom-letter-spacing) !important;
+	-webkit-letter-spacing: var(--custom-letter-spacing) !important;
+	-moz-letter-spacing: var(--custom-letter-spacing) !important;
+	-ms-letter-spacing: var(--custom-letter-spacing) !important;
+	-o-letter-spacing: var(--custom-letter-spacing) !important;
+	letter-spacing: var(--custom-letter-spacing) !important;
 }
 
 /**********
 line-height
 **********/
 .line-height-custom{
-	-webkit-line-height: var(--cucstom-line-height) !important;
-	-moz-line-height: var(--cucstom-line-height) !important;
-	-ms-line-height: var(--cucstom-line-height) !important;
-	-o-line-height: var(--cucstom-line-height) !important;
-	line-height: var(--cucstom-line-height) !important;
+	-webkit-line-height: var(--custom-line-height) !important;
+	-moz-line-height: var(--custom-line-height) !important;
+	-ms-line-height: var(--custom-line-height) !important;
+	-o-line-height: var(--custom-line-height) !important;
+	line-height: var(--custom-line-height) !important;
 }
 
 /**********
@@ -1897,22 +1888,22 @@ list-style-position
 list-style-type
 **********/
 .list-style-type-custom{
-	-webkit-list-style: var(--cucstom-list-style) !important;
-	-moz-list-style: var(--cucstom-list-style) !important;
-	-ms-list-style: var(--cucstom-list-style) !important;
-	-o-list-style: var(--cucstom-list-style) !important;
-	list-style: var(--cucstom-list-style) !important;
+	-webkit-list-style: var(--custom-list-style) !important;
+	-moz-list-style: var(--custom-list-style) !important;
+	-ms-list-style: var(--custom-list-style) !important;
+	-o-list-style: var(--custom-list-style) !important;
+	list-style: var(--custom-list-style) !important;
 }
 
 /**********
 margin
 **********/
 .margin-custom{
-	-webkit-margin: var(--cucstom-margin) !important;
-	-moz-margin: var(--cucstom-margin) !important;
-	-ms-margin: var(--cucstom-margin) !important;
-	-o-margin: var(--cucstom-margin) !important;
-	margin: var(--cucstom-margin) !important;
+	-webkit-margin: var(--custom-margin) !important;
+	-moz-margin: var(--custom-margin) !important;
+	-ms-margin: var(--custom-margin) !important;
+	-o-margin: var(--custom-margin) !important;
+	margin: var(--custom-margin) !important;
 }
 .margin-off{
 	-webkit-margin: 0 !important;
@@ -2017,11 +2008,11 @@ margin
 padding
 **********/
 .padding-custom{
-	-webkit-padding: var(--cucstom-padding) !important;
-	-moz-padding: var(--cucstom-padding) !important;
-	-ms-padding: var(--cucstom-padding) !important;
-	-o-padding: var(--cucstom-padding) !important;
-	padding: var(--cucstom-padding) !important;
+	-webkit-padding: var(--custom-padding) !important;
+	-moz-padding: var(--custom-padding) !important;
+	-ms-padding: var(--custom-padding) !important;
+	-o-padding: var(--custom-padding) !important;
+	padding: var(--custom-padding) !important;
 }
 .padding-off{
 	-webkit-padding: 0 !important;
@@ -2126,25 +2117,25 @@ padding
 width
 **********/
 .width-custom{
-	-webkit-width: var(--cucstom-width) !important;
-	-moz-width: var(--cucstom-width) !important;
-	-ms-width: var(--cucstom-width) !important;
-	-o-width: var(--cucstom-width) !important;
-	width: var(--cucstom-width) !important;
+	-webkit-width: var(--custom-width) !important;
+	-moz-width: var(--custom-width) !important;
+	-ms-width: var(--custom-width) !important;
+	-o-width: var(--custom-width) !important;
+	width: var(--custom-width) !important;
 }
 .min-width-custom{
-	-webkit-min-width: var(--cucstom-min-width) !important;
-	-moz-min-width: var(--cucstom-min-width) !important;
-	-ms-min-width: var(--cucstom-min-width) !important;
-	-o-min-width: var(--cucstom-min-width) !important;
-	min-width: var(--cucstom-min-width) !important;
+	-webkit-min-width: var(--custom-min-width) !important;
+	-moz-min-width: var(--custom-min-width) !important;
+	-ms-min-width: var(--custom-min-width) !important;
+	-o-min-width: var(--custom-min-width) !important;
+	min-width: var(--custom-min-width) !important;
 }
 .max-width-custom{
-	-webkit-max-width: var(--cucstom-max-width) !important;
-	-moz-max-width: var(--cucstom-max-width) !important;
-	-ms-max-width: var(--cucstom-max-width) !important;
-	-o-max-width: var(--cucstom-max-width) !important;
-	max-width: var(--cucstom-max-width) !important;
+	-webkit-max-width: var(--custom-max-width) !important;
+	-moz-max-width: var(--custom-max-width) !important;
+	-ms-max-width: var(--custom-max-width) !important;
+	-o-max-width: var(--custom-max-width) !important;
+	max-width: var(--custom-max-width) !important;
 }
 .width-per-100{
 	-webkit-width: 100% !important;

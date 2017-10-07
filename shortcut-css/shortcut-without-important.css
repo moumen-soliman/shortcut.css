@@ -1,4 +1,4 @@
-/* shortcut.css v1.0.0 | MIT License | github.com/moumensoliman/shortcut 
+/* shortcut.css v1.0.0 | github.com/moumensoliman/shortcut 
    	-------------------------------
    Shortcut.css framework contain:
    	-------------------------------
@@ -6,12 +6,11 @@
    		add your custom variables
    	-------------------------------
    	2- --built-in variables
- 		--custom-align
-		--cucstom-margin
-		--cucstom-padding
-		--cucstom-width
-		--cucstom-min-width
-		--cucstom-max-width
+		--custom-margin
+		--custom-padding
+		--custom-width
+		--custom-min-width
+		--custom-max-width
 		--custom-bg
 		--custom-background-attachment
 		--custom-bg-pos
@@ -24,9 +23,9 @@
 		--custom-height
 		--custom-max-height
 		--custom-min-height
-		--cucstom-letter-spacing
-		--cucstom-line-height
-		--cucstom-list-style
+		--custom-letter-spacing
+		--custom-line-height
+		--custom-list-style
 		--custom-outline
 		--custom-perspective
 		--custom-quotes
@@ -112,12 +111,11 @@
   /**********
   --built-in variables
   **********/
-  --custom-align: ;
-  --cucstom-margin: ;
-  --cucstom-padding: ;
-  --cucstom-width: ;
-  --cucstom-min-width: ;
-  --cucstom-max-width: ;
+  --custom-margin: ;
+  --custom-padding: ;
+  --custom-width: ;
+  --custom-min-width: ;
+  --custom-max-width: ;
   --custom-bg: ;
   --custom-background-attachment: ;
   --custom-bg-pos: ;
@@ -130,9 +128,9 @@
   --custom-height: ;
   --custom-max-height: ;
   --custom-min-height: ;
-  --cucstom-letter-spacing: ;
-  --cucstom-line-height: ;
-  --cucstom-list-style: ;
+  --custom-letter-spacing: ;
+  --custom-line-height: ;
+  --custom-list-style: ;
   --custom-outline: ;
   --custom-perspective: ;
   --custom-quotes: ;
@@ -183,13 +181,6 @@ builtin-style
 /**********
  align-content 
 **********/
-.align-custom{
-	-webkit-align-content: var(--custom-align);
-	-moz-align-content: var(--custom-align);
-	-ms-align-content: var(--custom-align);
-	-o-align-content: var(--custom-align);
-	align-content: var(--custom-align);
-}
 .align-inherit{
 	-webkit-align-content: inherit;
 	-moz-align-content: inherit;
@@ -1857,22 +1848,22 @@ justify-content
 letter-spacing
 **********/
 .letter-spacing-custom{
-	-webkit-letter-spacing: var(--cucstom-letter-spacing);
-	-moz-letter-spacing: var(--cucstom-letter-spacing);
-	-ms-letter-spacing: var(--cucstom-letter-spacing);
-	-o-letter-spacing: var(--cucstom-letter-spacing);
-	letter-spacing: var(--cucstom-letter-spacing);
+	-webkit-letter-spacing: var(--custom-letter-spacing);
+	-moz-letter-spacing: var(--custom-letter-spacing);
+	-ms-letter-spacing: var(--custom-letter-spacing);
+	-o-letter-spacing: var(--custom-letter-spacing);
+	letter-spacing: var(--custom-letter-spacing);
 }
 
 /**********
 line-height
 **********/
 .line-height-custom{
-	-webkit-line-height: var(--cucstom-line-height);
-	-moz-line-height: var(--cucstom-line-height);
-	-ms-line-height: var(--cucstom-line-height);
-	-o-line-height: var(--cucstom-line-height);
-	line-height: var(--cucstom-line-height);
+	-webkit-line-height: var(--custom-line-height);
+	-moz-line-height: var(--custom-line-height);
+	-ms-line-height: var(--custom-line-height);
+	-o-line-height: var(--custom-line-height);
+	line-height: var(--custom-line-height);
 }
 
 /**********
@@ -1897,22 +1888,22 @@ list-style-position
 list-style-type
 **********/
 .list-style-type-custom{
-	-webkit-list-style: var(--cucstom-list-style);
-	-moz-list-style: var(--cucstom-list-style);
-	-ms-list-style: var(--cucstom-list-style);
-	-o-list-style: var(--cucstom-list-style);
-	list-style: var(--cucstom-list-style);
+	-webkit-list-style: var(--custom-list-style);
+	-moz-list-style: var(--custom-list-style);
+	-ms-list-style: var(--custom-list-style);
+	-o-list-style: var(--custom-list-style);
+	list-style: var(--custom-list-style);
 }
 
 /**********
 margin
 **********/
 .margin-custom{
-	-webkit-margin: var(--cucstom-margin);
-	-moz-margin: var(--cucstom-margin);
-	-ms-margin: var(--cucstom-margin);
-	-o-margin: var(--cucstom-margin);
-	margin: var(--cucstom-margin);
+	-webkit-margin: var(--custom-margin);
+	-moz-margin: var(--custom-margin);
+	-ms-margin: var(--custom-margin);
+	-o-margin: var(--custom-margin);
+	margin: var(--custom-margin);
 }
 .margin-off{
 	-webkit-margin: 0;
@@ -2017,11 +2008,11 @@ margin
 padding
 **********/
 .padding-custom{
-	-webkit-padding: var(--cucstom-padding);
-	-moz-padding: var(--cucstom-padding);
-	-ms-padding: var(--cucstom-padding);
-	-o-padding: var(--cucstom-padding);
-	padding: var(--cucstom-padding);
+	-webkit-padding: var(--custom-padding);
+	-moz-padding: var(--custom-padding);
+	-ms-padding: var(--custom-padding);
+	-o-padding: var(--custom-padding);
+	padding: var(--custom-padding);
 }
 .padding-off{
 	-webkit-padding: 0;
@@ -2126,25 +2117,25 @@ padding
 width
 **********/
 .width-custom{
-	-webkit-width: var(--cucstom-width);
-	-moz-width: var(--cucstom-width);
-	-ms-width: var(--cucstom-width);
-	-o-width: var(--cucstom-width);
-	width: var(--cucstom-width);
+	-webkit-width: var(--custom-width);
+	-moz-width: var(--custom-width);
+	-ms-width: var(--custom-width);
+	-o-width: var(--custom-width);
+	width: var(--custom-width);
 }
 .min-width-custom{
-	-webkit-min-width: var(--cucstom-min-width);
-	-moz-min-width: var(--cucstom-min-width);
-	-ms-min-width: var(--cucstom-min-width);
-	-o-min-width: var(--cucstom-min-width);
-	min-width: var(--cucstom-min-width);
+	-webkit-min-width: var(--custom-min-width);
+	-moz-min-width: var(--custom-min-width);
+	-ms-min-width: var(--custom-min-width);
+	-o-min-width: var(--custom-min-width);
+	min-width: var(--custom-min-width);
 }
 .max-width-custom{
-	-webkit-max-width: var(--cucstom-max-width);
-	-moz-max-width: var(--cucstom-max-width);
-	-ms-max-width: var(--cucstom-max-width);
-	-o-max-width: var(--cucstom-max-width);
-	max-width: var(--cucstom-max-width);
+	-webkit-max-width: var(--custom-max-width);
+	-moz-max-width: var(--custom-max-width);
+	-ms-max-width: var(--custom-max-width);
+	-o-max-width: var(--custom-max-width);
+	max-width: var(--custom-max-width);
 }
 .width-per-100{
 	-webkit-width: 100%;
