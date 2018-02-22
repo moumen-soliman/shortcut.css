@@ -1,6 +1,6 @@
-<a href="http://moumensoliman.com/shortcut-css"><h1>Shortcut.css</h1></a>
+<h1>Shortcut.css</h1>
 <p>
-	<a href="http://moumensoliman.com/shortcut-css">Check shortcut.css full description</a><br>
+	<a>Check shortcut.css full description</a><br>
 	<b>Shortcut</b>.css is the first css package it <b>support</b> your stylesheet, Contain custom & built-in variables and classes you can use it with any situation you want with css shortcuts for more flexiblity & stability.
 </p>
 <hr>
@@ -8,11 +8,9 @@
 <code>$ git clone https://github.com/moumen-soliman/shortcut.css.git</code><br>
 <code>$ npm install shortcut-css</code>
 <hr>
-<h3><a href="http://moumensoliman.com/shortcut-css/docs.html">Check full documentation</a></h3>
-<hr>
 <h3>What is <b>Shortcut.css</b> Contain ?</h3><br>
             <div>
-                <h4><b>Built-in Styles &nbsp; <a href="http://moumensoliman.com/shortcut-css/built-in-styles.html">Check full Built-in Styles</a></b></h4> <br>
+                <h4><b>Built-in Styles </b></h4> <br>
                 <ul>
                     <li>align-content</li>
                     <li>background</li>
@@ -101,5 +99,3 @@
                     <li><b>--custom-z-index:</b> your-value;</li>
                 </ul>
             </div>
-<h1><a href="http://moumensoliman.com/shortcut-css">Check Full Description</a></h1>
-
