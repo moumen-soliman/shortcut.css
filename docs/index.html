@@ -5,16 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Shortcut.css - A modern, lightweight utility-first CSS framework">
   <title>Shortcut.css - Modern Utility-First CSS Framework</title>
-  
-  <!-- Shortcut.css -->
-  <link rel="stylesheet" href="../src/shortcut.css">
+  <link rel="stylesheet" href="https://unpkg.com/shortcut-css@2.0.0/dist/shortcut.min.css">
   
   <style>
     /* Custom styles for demo */
     :root {
-      --primary: #3b82f6;
-      --primary-dark: #2563eb;
-      --secondary: #8b5cf6;
+      --primary: #2563eb;
+      --primary-dark: #1e40af;
+      --secondary: #64748b;
       --success: #10b981;
       --danger: #ef4444;
       --warning: #f59e0b;
@@ -30,7 +28,7 @@
     }
     
     .hero {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      background: var(--dark);
       color: white;
     }
     
@@ -55,15 +53,15 @@
     }
     
     .feature-icon {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      background: var(--primary);
       color: white;
-      width: 60px;
-      height: 60px;
-      border-radius: 12px;
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 24px;
+      font-weight: bold;
       margin-bottom: 1rem;
     }
     
@@ -72,7 +70,7 @@
       padding: 2px 6px;
       border-radius: 4px;
       font-family: 'Courier New', monospace;
-      color: var(--secondary);
+      color: var(--dark);
     }
     
     pre {
@@ -94,8 +92,8 @@
   <!-- Navigation -->
   <nav class="padding-20px box-shadow-sm" style="background: white; position: sticky; top: 0; z-index: 100;">
     <div class="display-flex justify-content-space-between align-items-center" style="max-width: 1200px; margin: 0 auto;">
-      <div class="font-size-xl font-weight-bold" style="color: var(--primary);">
-        ⚡ Shortcut.css
+      <div class="font-size-xl font-weight-bold" style="color: var(--dark);">
+        Shortcut.css
       </div>
       <div class="display-flex gap-6">
         <a href="#features" class="txt-dec-none transition" style="color: var(--dark);">Features</a>
@@ -118,12 +116,12 @@
       </p>
       <div class="display-flex justify-content-center gap-4" style="margin-top: 2rem;">
         <a href="https://github.com/moumen-soliman/Shortcut.css" 
-           class="btn-primary padding-20px border-radius-10 txt-dec-none font-weight-semibold cursor-pointer">
+           class="btn-primary padding-20px border-radius-5 txt-dec-none font-weight-semibold cursor-pointer">
           Get Started
         </a>
         <a href="#examples" 
-           class="padding-20px border-radius-10 txt-dec-none font-weight-semibold cursor-pointer" 
-           style="background: rgba(255,255,255,0.2); color: white; border: none;">
+           class="padding-20px border-radius-5 txt-dec-none font-weight-semibold cursor-pointer" 
+           style="background: white; color: var(--dark); border: 2px solid white;">
           View Examples
         </a>
       </div>
@@ -148,7 +146,7 @@
       <div class="display-grid grid-cols-3 gap-8">
         <!-- Feature 1 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">🎯</div>
+          <div class="feature-icon">U</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">Utility-First</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Compose designs directly in your HTML with intuitive utility classes. No need to write custom CSS.
@@ -157,7 +155,7 @@
         
         <!-- Feature 2 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">🪶</div>
+          <div class="feature-icon">L</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">Lightweight</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Only ~50KB unminified, ~15KB minified. Zero dependencies. Just pure CSS optimized for performance.
@@ -166,7 +164,7 @@
         
         <!-- Feature 3 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">🚀</div>
+          <div class="feature-icon">M</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">Modern</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Built with modern CSS standards. Flexbox, Grid, custom properties, and more. No obsolete code.
@@ -175,7 +173,7 @@
         
         <!-- Feature 4 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">💪</div>
+          <div class="feature-icon">TS</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">TypeScript Ready</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Full TypeScript definitions for IntelliSense support. Get autocomplete for all utility classes.
@@ -184,7 +182,7 @@
         
         <!-- Feature 5 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">🌙</div>
+          <div class="feature-icon">D</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">Dark Mode</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Built-in dark mode support with automatic system preference detection. Toggle with a single class.
@@ -193,7 +191,7 @@
         
         <!-- Feature 6 -->
         <div class="card padding-30px border-radius-10 box-shadow-md">
-          <div class="feature-icon">🔧</div>
+          <div class="feature-icon">C</div>
           <h3 class="font-size-xl font-weight-bold margin-bottom-off">Customizable</h3>
           <p style="color: var(--gray); margin-top: 0.5rem;">
             Easy theming with CSS custom properties. Override defaults without modifying the source code.
@@ -220,7 +218,7 @@
         
         <div class="display-grid grid-cols-3 gap-6" style="margin-top: 2rem;">
           <div class="padding-20px border-radius-10 box-shadow-lg card">
-            <div style="width: 100%; height: 150px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; margin-bottom: 1rem;"></div>
+            <div style="width: 100%; height: 150px; background: var(--primary); border-radius: 8px; margin-bottom: 1rem;"></div>
             <h4 class="font-size-lg font-weight-bold margin-bottom-off">Card Title</h4>
             <p style="color: var(--gray); margin-top: 0.5rem;">
               A beautiful card component built with utility classes. Clean, simple, and elegant.
@@ -231,7 +229,7 @@
           </div>
 
           <div class="padding-20px border-radius-10 box-shadow-lg card">
-            <div style="width: 100%; height: 150px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 8px; margin-bottom: 1rem;"></div>
+            <div style="width: 100%; height: 150px; background: var(--secondary); border-radius: 8px; margin-bottom: 1rem;"></div>
             <h4 class="font-size-lg font-weight-bold margin-bottom-off">Card Title</h4>
             <p style="color: var(--gray); margin-top: 0.5rem;">
               Responsive, accessible, and easy to customize. Perfect for any project.
@@ -242,7 +240,7 @@
           </div>
 
           <div class="padding-20px border-radius-10 box-shadow-lg card">
-            <div style="width: 100%; height: 150px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 8px; margin-bottom: 1rem;"></div>
+            <div style="width: 100%; height: 150px; background: var(--dark); border-radius: 8px; margin-bottom: 1rem;"></div>
             <h4 class="font-size-lg font-weight-bold margin-bottom-off">Card Title</h4>
             <p style="color: var(--gray); margin-top: 0.5rem;">
               Build complex layouts without writing a single line of custom CSS.
@@ -272,32 +270,28 @@
         <p style="color: var(--gray);">Build notification and alert components effortlessly</p>
         
         <div class="display-flex flex-column gap-4" style="margin-top: 2rem;">
-          <div class="padding-20px border-radius-10 display-flex align-items-center" style="background: #dbeafe; border-left: 4px solid var(--primary);">
-            <span style="font-size: 24px; margin-right: 1rem;">ℹ️</span>
+          <div class="padding-20px border-radius-5 display-flex align-items-center" style="background: #dbeafe; border-left: 4px solid var(--primary);">
             <div>
               <strong class="font-weight-bold">Info:</strong>
               <span style="color: var(--gray);"> This is an informational message.</span>
             </div>
           </div>
 
-          <div class="padding-20px border-radius-10 display-flex align-items-center" style="background: #d1fae5; border-left: 4px solid var(--success);">
-            <span style="font-size: 24px; margin-right: 1rem;">✅</span>
+          <div class="padding-20px border-radius-5 display-flex align-items-center" style="background: #d1fae5; border-left: 4px solid var(--success);">
             <div>
               <strong class="font-weight-bold">Success:</strong>
               <span style="color: var(--gray);"> Your action was completed successfully!</span>
             </div>
           </div>
 
-          <div class="padding-20px border-radius-10 display-flex align-items-center" style="background: #fee2e2; border-left: 4px solid var(--danger);">
-            <span style="font-size: 24px; margin-right: 1rem;">❌</span>
+          <div class="padding-20px border-radius-5 display-flex align-items-center" style="background: #fee2e2; border-left: 4px solid var(--danger);">
             <div>
               <strong class="font-weight-bold">Error:</strong>
               <span style="color: var(--gray);"> Something went wrong. Please try again.</span>
             </div>
           </div>
 
-          <div class="padding-20px border-radius-10 display-flex align-items-center" style="background: #fef3c7; border-left: 4px solid var(--warning);">
-            <span style="font-size: 24px; margin-right: 1rem;">⚠️</span>
+          <div class="padding-20px border-radius-5 display-flex align-items-center" style="background: #fef3c7; border-left: 4px solid var(--warning);">
             <div>
               <strong class="font-weight-bold">Warning:</strong>
               <span style="color: var(--gray);"> Please review your information before submitting.</span>
@@ -339,7 +333,7 @@
   </section>
 
   <!-- CTA Section -->
-  <section class="padding-60px txt-center" style="background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white;">
+  <section class="padding-60px txt-center" style="background: var(--dark); color: white;">
     <div style="max-width: 700px; margin: 0 auto;">
       <h2 class="font-size-4xl font-weight-bold margin-bottom-off">
         Ready to Build Something Amazing?
@@ -349,13 +343,13 @@
       </p>
       <div class="display-flex justify-content-center gap-4" style="margin-top: 2rem;">
         <a href="https://github.com/moumen-soliman/Shortcut.css" 
-           class="padding-20px border-radius-10 txt-dec-none font-weight-semibold cursor-pointer" 
-           style="background: white; color: var(--primary);">
+           class="padding-20px border-radius-5 txt-dec-none font-weight-semibold cursor-pointer" 
+           style="background: white; color: var(--dark);">
           View on GitHub
         </a>
         <a href="https://www.npmjs.com/package/shortcut-css" 
-           class="padding-20px border-radius-10 txt-dec-none font-weight-semibold cursor-pointer" 
-           style="background: rgba(255,255,255,0.2); color: white; border: none;">
+           class="padding-20px border-radius-5 txt-dec-none font-weight-semibold cursor-pointer" 
+           style="background: transparent; color: white; border: 2px solid white;">
           View on NPM
         </a>
       </div>
@@ -391,7 +385,7 @@
       </div>
       <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
         <p style="color: var(--gray);">
-          © 2025 Shortcut.css. Made with ❤️ by <a href="https://github.com/moumen-soliman" class="txt-dec-none" style="color: var(--primary);">Mo'men Soliman</a>
+          2025 Shortcut.css. Made by <a href="https://github.com/moumen-soliman" class="txt-dec-none" style="color: white;">Mo'men Soliman</a>
         </p>
         <p style="color: var(--gray); margin-top: 0.5rem;">
           Released under the MIT License
