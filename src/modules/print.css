@@ -1,0 +1,18 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Print Utilities
+   ========================================================================== */
+
+@media print {
+  .print-none {
+    display: none !important;
+  }
+}
+

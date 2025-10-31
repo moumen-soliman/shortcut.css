@@ -1,0 +1,50 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Margin Utilities
+   ========================================================================== */
+
+.margin-custom { margin: var(--custom-margin) !important; }
+.margin-auto { margin: auto !important; }
+.margin-0 { margin: 0 !important; }
+.margin-off { margin: 0 !important; }
+
+/* Directional Margins */
+.margin-top-off { margin-top: 0 !important; }
+.margin-bottom-off { margin-bottom: 0 !important; }
+.margin-left-off { margin-left: 0 !important; }
+.margin-right-off { margin-right: 0 !important; }
+.margin-top-auto { margin-top: auto !important; }
+.margin-bottom-auto { margin-bottom: auto !important; }
+.margin-left-auto { margin-left: auto !important; }
+.margin-right-auto { margin-right: auto !important; }
+
+/* Numeric Margins */
+.margin-1 { margin: 0.25rem !important; }
+.margin-2 { margin: 0.5rem !important; }
+.margin-3 { margin: 0.75rem !important; }
+.margin-4 { margin: 1rem !important; }
+.margin-5 { margin: 1.25rem !important; }
+.margin-6 { margin: 1.5rem !important; }
+.margin-8 { margin: 2rem !important; }
+.margin-10 { margin: 2.5rem !important; }
+.margin-12 { margin: 3rem !important; }
+.margin-16 { margin: 4rem !important; }
+
+/* Legacy pixel margins */
+.margin-10px { margin: 10px !important; }
+.margin-20px { margin: 20px !important; }
+.margin-30px { margin: 30px !important; }
+.margin-40px { margin: 40px !important; }
+.margin-50px { margin: 50px !important; }
+.margin-60px { margin: 60px !important; }
+.margin-70px { margin: 70px !important; }
+.margin-80px { margin: 80px !important; }
+.margin-90px { margin: 90px !important; }
+

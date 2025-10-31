@@ -1,0 +1,60 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Border Utilities
+   ========================================================================== */
+
+.border-custom { border: var(--custom-border) !important; }
+.border { border: 1px solid #d1d5db !important; }
+.border-0 { border: 0 !important; }
+.border-top { border-top: 1px solid #d1d5db !important; }
+.border-bottom { border-bottom: 1px solid #d1d5db !important; }
+.border-right { border-right: 1px solid #d1d5db !important; }
+.border-left { border-left: 1px solid #d1d5db !important; }
+.border-top-0 { border-top: 0 !important; }
+.border-bottom-0 { border-bottom: 0 !important; }
+.border-right-0 { border-right: 0 !important; }
+.border-left-0 { border-left: 0 !important; }
+
+/* Border Collapse */
+.border-collapse { border-collapse: collapse !important; }
+.border-separate { border-collapse: separate !important; }
+
+/* Border Style */
+.border-style-solid { border-style: solid !important; }
+.border-style-dotted { border-style: dotted !important; }
+.border-style-dashed { border-style: dashed !important; }
+.border-style-double { border-style: double !important; }
+.border-style-groove { border-style: groove !important; }
+.border-style-ridge { border-style: ridge !important; }
+.border-style-inset { border-style: inset !important; }
+.border-style-outset { border-style: outset !important; }
+.border-style-none { border-style: none !important; }
+
+/* Border Width */
+.border-width-medium { border-width: medium !important; }
+.border-width-thin { border-width: thin !important; }
+.border-width-thick { border-width: thick !important; }
+.border-width-1 { border-width: 1px !important; }
+.border-width-2 { border-width: 2px !important; }
+.border-width-4 { border-width: 4px !important; }
+.border-width-8 { border-width: 8px !important; }
+
+/* Border Radius */
+.border-radius-circle { border-radius: 50% !important; }
+.border-radius-25 { border-radius: 25px !important; }
+.border-radius-20 { border-radius: 20px !important; }
+.border-radius-15 { border-radius: 15px !important; }
+.border-radius-10 { border-radius: 10px !important; }
+.border-radius-5 { border-radius: 5px !important; }
+.border-radius-0 { border-radius: 0 !important; }
+.border-radius-full { border-radius: 9999px !important; }
+.border-radius-top-right-left { border-radius: 0 7px 0 7px !important; }
+.border-radius-top-left-right { border-radius: 7px 0 7px 0 !important; }
+

@@ -1,0 +1,15 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Box Sizing Utilities
+   ========================================================================== */
+
+.box-sizing-content { box-sizing: content-box !important; }
+.box-sizing-border { box-sizing: border-box !important; }
+

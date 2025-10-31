@@ -1,0 +1,30 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Dark Mode Support (using CSS custom properties)
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  .dark-auto {
+    /* Add your dark mode defaults here */
+  }
+}
+
+/* Force dark mode */
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* Force light mode */
+.light,
+[data-theme="light"] {
+  color-scheme: light;
+}
+

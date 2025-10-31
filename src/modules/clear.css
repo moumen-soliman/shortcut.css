@@ -1,0 +1,17 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Clear Utilities
+   ========================================================================== */
+
+.clear-none { clear: none !important; }
+.clear-right { clear: right !important; }
+.clear-left { clear: left !important; }
+.clear-both { clear: both !important; }
+

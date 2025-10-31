@@ -1,0 +1,86 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Background Utilities
+   ========================================================================== */
+
+.bg-custom { background: var(--custom-bg) !important; }
+.bg-transparent { background-color: transparent !important; }
+.bg-inherit { background-color: inherit !important; }
+
+/* Background Attachment */
+.bg-attachment-custom { background-attachment: var(--custom-background-attachment) !important; }
+.bg-attachment-scroll { background-attachment: scroll !important; }
+.bg-attachment-fixed { background-attachment: fixed !important; }
+.bg-attachment-local { background-attachment: local !important; }
+.bg-attachment-inherit { background-attachment: inherit !important; }
+
+/* Background Blend Mode */
+.bg-blend-normal { background-blend-mode: normal !important; }
+.bg-blend-multiply { background-blend-mode: multiply !important; }
+.bg-blend-screen { background-blend-mode: screen !important; }
+.bg-blend-overlay { background-blend-mode: overlay !important; }
+.bg-blend-darken { background-blend-mode: darken !important; }
+.bg-blend-lighten { background-blend-mode: lighten !important; }
+.bg-blend-color-dodge { background-blend-mode: color-dodge !important; }
+.bg-blend-color-burn { background-blend-mode: color-burn !important; }
+.bg-blend-hard-light { background-blend-mode: hard-light !important; }
+.bg-blend-soft-light { background-blend-mode: soft-light !important; }
+.bg-blend-difference { background-blend-mode: difference !important; }
+.bg-blend-exclusion { background-blend-mode: exclusion !important; }
+.bg-blend-hue { background-blend-mode: hue !important; }
+.bg-blend-saturation { background-blend-mode: saturation !important; }
+.bg-blend-color { background-blend-mode: color !important; }
+.bg-blend-luminosity { background-blend-mode: luminosity !important; }
+
+/* Background Clip */
+.bg-clip-border-box { background-clip: border-box !important; }
+.bg-clip-padding-box { background-clip: padding-box !important; }
+.bg-clip-content-box { background-clip: content-box !important; }
+.bg-clip-text { background-clip: text !important; -webkit-background-clip: text !important; }
+.bg-clip-inherit { background-clip: inherit !important; }
+
+/* Background Origin */
+.bg-origin-border-box { background-origin: border-box !important; }
+.bg-origin-padding-box { background-origin: padding-box !important; }
+.bg-origin-content-box { background-origin: content-box !important; }
+.bg-origin-inherit { background-origin: inherit !important; }
+
+/* Background Position */
+.bg-pos-custom { background-position: var(--custom-bg-pos) !important; }
+.bg-pos-top { background-position: top !important; }
+.bg-pos-right { background-position: right !important; }
+.bg-pos-bottom { background-position: bottom !important; }
+.bg-pos-left { background-position: left !important; }
+.bg-pos-center { background-position: center !important; }
+.bg-pos-left-top { background-position: left top !important; }
+.bg-pos-left-center { background-position: left center !important; }
+.bg-pos-left-bottom { background-position: left bottom !important; }
+.bg-pos-right-top { background-position: right top !important; }
+.bg-pos-right-center { background-position: right center !important; }
+.bg-pos-right-bottom { background-position: right bottom !important; }
+.bg-pos-center-top { background-position: center top !important; }
+.bg-pos-center-center { background-position: center center !important; }
+.bg-pos-center-bottom { background-position: center bottom !important; }
+
+/* Background Repeat */
+.bg-repeat { background-repeat: repeat !important; }
+.bg-no-repeat { background-repeat: no-repeat !important; }
+.bg-repeat-y { background-repeat: repeat-y !important; }
+.bg-repeat-x { background-repeat: repeat-x !important; }
+.bg-repeat-space { background-repeat: space !important; }
+.bg-repeat-round { background-repeat: round !important; }
+
+/* Background Size */
+.bg-size-custom { background-size: var(--custom-bg-size) !important; }
+.bg-size-auto { background-size: auto !important; }
+.bg-size-cover { background-size: cover !important; }
+.bg-size-contain { background-size: contain !important; }
+.bg-size-inherit { background-size: inherit !important; }
+

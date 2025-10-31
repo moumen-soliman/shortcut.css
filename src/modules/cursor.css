@@ -1,0 +1,49 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Cursor Utilities
+   ========================================================================== */
+
+.cursor-alias { cursor: alias !important; }
+.cursor-all-scroll { cursor: all-scroll !important; }
+.cursor-auto { cursor: auto !important; }
+.cursor-cell { cursor: cell !important; }
+.cursor-context-menu { cursor: context-menu !important; }
+.cursor-col-resize { cursor: col-resize !important; }
+.cursor-copy { cursor: copy !important; }
+.cursor-crosshair { cursor: crosshair !important; }
+.cursor-default { cursor: default !important; }
+.cursor-e-resize { cursor: e-resize !important; }
+.cursor-ew-resize { cursor: ew-resize !important; }
+.cursor-grab { cursor: grab !important; }
+.cursor-grabbing { cursor: grabbing !important; }
+.cursor-help { cursor: help !important; }
+.cursor-move { cursor: move !important; }
+.cursor-n-resize { cursor: n-resize !important; }
+.cursor-ne-resize { cursor: ne-resize !important; }
+.cursor-nesw-resize { cursor: nesw-resize !important; }
+.cursor-ns-resize { cursor: ns-resize !important; }
+.cursor-nw-resize { cursor: nw-resize !important; }
+.cursor-nwse-resize { cursor: nwse-resize !important; }
+.cursor-no-drop { cursor: no-drop !important; }
+.cursor-none { cursor: none !important; }
+.cursor-not-allowed { cursor: not-allowed !important; }
+.cursor-pointer { cursor: pointer !important; }
+.cursor-progress { cursor: progress !important; }
+.cursor-row-resize { cursor: row-resize !important; }
+.cursor-s-resize { cursor: s-resize !important; }
+.cursor-se-resize { cursor: se-resize !important; }
+.cursor-sw-resize { cursor: sw-resize !important; }
+.cursor-text { cursor: text !important; }
+.cursor-vertical-text { cursor: vertical-text !important; }
+.cursor-w-resize { cursor: w-resize !important; }
+.cursor-wait { cursor: wait !important; }
+.cursor-zoom-in { cursor: zoom-in !important; }
+.cursor-zoom-out { cursor: zoom-out !important; }
+

@@ -1,0 +1,34 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Display Utilities
+   ========================================================================== */
+
+.display-inline { display: inline !important; }
+.display-block { display: block !important; }
+.display-flex { display: flex !important; }
+.display-inline-block { display: inline-block !important; }
+.display-inline-flex { display: inline-flex !important; }
+.display-grid { display: grid !important; }
+.display-inline-grid { display: inline-grid !important; }
+.display-inline-table { display: inline-table !important; }
+.display-list-item { display: list-item !important; }
+.display-run-in { display: run-in !important; }
+.display-table { display: table !important; }
+.display-table-caption { display: table-caption !important; }
+.display-table-column-group { display: table-column-group !important; }
+.display-table-header-group { display: table-header-group !important; }
+.display-table-footer-group { display: table-footer-group !important; }
+.display-table-row-group { display: table-row-group !important; }
+.display-table-cell { display: table-cell !important; }
+.display-table-column { display: table-column !important; }
+.display-table-row { display: table-row !important; }
+.display-none { display: none !important; }
+.display-contents { display: contents !important; }
+

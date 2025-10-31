@@ -1,0 +1,43 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Height Utilities
+   ========================================================================== */
+
+.height-custom { height: var(--custom-height) !important; }
+.max-height-custom { max-height: var(--custom-max-height) !important; }
+.min-height-custom { min-height: var(--custom-min-height) !important; }
+
+.height-auto { height: auto !important; }
+.height-full { height: 100% !important; }
+.height-screen { height: 100vh !important; }
+.height-min { height: min-content !important; }
+.height-max { height: max-content !important; }
+.height-fit { height: fit-content !important; }
+
+/* Numeric Heights */
+.height-0 { height: 0 !important; }
+.height-10 { height: 10px !important; }
+.height-20 { height: 20px !important; }
+.height-30 { height: 30px !important; }
+.height-40 { height: 40px !important; }
+.height-50 { height: 50px !important; }
+.height-60 { height: 60px !important; }
+.height-70 { height: 70px !important; }
+.height-80 { height: 80px !important; }
+.height-90 { height: 90px !important; }
+.height-100 { height: 100px !important; }
+
+/* Min/Max Heights */
+.min-height-0 { min-height: 0 !important; }
+.min-height-full { min-height: 100% !important; }
+.min-height-screen { min-height: 100vh !important; }
+.max-height-full { max-height: 100% !important; }
+.max-height-screen { max-height: 100vh !important; }
+

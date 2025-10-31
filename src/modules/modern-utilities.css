@@ -1,0 +1,74 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Additional Modern Utilities
+   ========================================================================== */
+
+/* Object Fit */
+.object-contain { object-fit: contain !important; }
+.object-cover { object-fit: cover !important; }
+.object-fill { object-fit: fill !important; }
+.object-none { object-fit: none !important; }
+.object-scale-down { object-fit: scale-down !important; }
+
+/* Object Position */
+.object-bottom { object-position: bottom !important; }
+.object-center { object-position: center !important; }
+.object-left { object-position: left !important; }
+.object-right { object-position: right !important; }
+.object-top { object-position: top !important; }
+
+/* Pointer Events */
+.pointer-events-none { pointer-events: none !important; }
+.pointer-events-auto { pointer-events: auto !important; }
+
+/* User Select */
+.select-none { user-select: none !important; }
+.select-text { user-select: text !important; }
+.select-all { user-select: all !important; }
+.select-auto { user-select: auto !important; }
+
+/* Aspect Ratio */
+.aspect-auto { aspect-ratio: auto !important; }
+.aspect-square { aspect-ratio: 1 / 1 !important; }
+.aspect-video { aspect-ratio: 16 / 9 !important; }
+
+/* List Style */
+.list-style-none { list-style: none !important; }
+.list-style-disc { list-style: disc !important; }
+.list-style-decimal { list-style: decimal !important; }
+.list-style-custom { list-style: var(--custom-list-style) !important; }
+
+/* Outline */
+.outline-none { outline: none !important; }
+.outline { outline: 2px solid transparent !important; outline-offset: 2px !important; }
+.outline-custom { outline: var(--custom-outline) !important; }
+
+/* Resize */
+.resize-none { resize: none !important; }
+.resize { resize: both !important; }
+.resize-x { resize: horizontal !important; }
+.resize-y { resize: vertical !important; }
+
+/* Scroll Behavior */
+.scroll-smooth { scroll-behavior: smooth !important; }
+.scroll-auto { scroll-behavior: auto !important; }
+
+/* Touch Action */
+.touch-auto { touch-action: auto !important; }
+.touch-none { touch-action: none !important; }
+.touch-pan-x { touch-action: pan-x !important; }
+.touch-pan-y { touch-action: pan-y !important; }
+
+/* Will Change */
+.will-change-auto { will-change: auto !important; }
+.will-change-scroll { will-change: scroll-position !important; }
+.will-change-contents { will-change: contents !important; }
+.will-change-transform { will-change: transform !important; }
+

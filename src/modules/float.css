@@ -1,0 +1,16 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Float Utilities
+   ========================================================================== */
+
+.float-none { float: none !important; }
+.float-right { float: right !important; }
+.float-left { float: left !important; }
+

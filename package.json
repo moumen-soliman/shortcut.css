@@ -1,36 +1,85 @@
 {
   "name": "shortcut-css",
-  "version": "1.0.7",
-  "description": "Shortcut.css is the first css framework it support your stylesheet, Contain custom & built-in variables and classes ",
-  "main": "uation you want with css shortcuts for more flexiblity & stability.",
+  "version": "2.0.0",
+  "description": "A modern, lightweight utility-first CSS framework. Build beautiful interfaces with intuitive utility classes - no complex configurations needed.",
+  "main": "dist/shortcut.css",
+  "style": "dist/shortcut.css",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/shortcut.css",
+      "require": "./dist/shortcut.css",
+      "default": "./dist/shortcut.css"
+    },
+    "./without-important": {
+      "import": "./dist/shortcut-without-important.css",
+      "require": "./dist/shortcut-without-important.css",
+      "default": "./dist/shortcut-without-important.css"
+    },
+    "./minified": "./dist/shortcut.min.css"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:modules && npm run build:css && npm run build:minify && npm run build:types",
+    "build:modules": "node scripts/create-modules.js",
+    "build:css": "postcss src/shortcut.css -o dist/shortcut.css && postcss src/shortcut-without-important.css -o dist/shortcut-without-important.css",
+    "build:minify": "postcss dist/shortcut.css -o dist/shortcut.min.css --config postcss.minify.config.js && postcss dist/shortcut-without-important.css -o dist/shortcut-without-important.min.css --config postcss.minify.config.js",
+    "build:types": "node scripts/generate-types.js",
+    "watch": "postcss src/shortcut.css -o dist/shortcut.css --watch",
+    "dev": "npm run watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Tests coming soon!\" && exit 0",
+    "format": "prettier --write \"src/**/*.css\" \"*.{js,json,md}\"",
+    "lint": "stylelint \"src/**/*.css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moumen-soliman/Shortcut.css.git"
   },
   "keywords": [
-    "shortcut.css",
-    "shortcutcss",
     "css",
-    "framework",
-    "css",
-    "library",
-    "css",
-    "helper",
+    "css-framework",
+    "utility-css",
+    "utility-first",
     "shortcut-css",
-    "shortcut.css",
-    "css",
-    "web",
-    "design",
-    "ui",
-    "developer"
+    "shortcutcss",
+    "css-utilities",
+    "lightweight-css",
+    "modern-css",
+    "css-library",
+    "ui-framework",
+    "frontend",
+    "web-design",
+    "responsive",
+    "flexbox",
+    "grid"
   ],
   "author": "Mo'men Soliman",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/moumen-soliman/Shortcut.css/issues"
   },
-  "homepage": "https://github.com/moumen-soliman/Shortcut.css#readme"
+  "homepage": "https://github.com/moumen-soliman/Shortcut.css#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
 }

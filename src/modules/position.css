@@ -1,0 +1,30 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Position Utilities
+   ========================================================================== */
+
+.pos-static { position: static !important; }
+.pos-absolute { position: absolute !important; }
+.pos-fixed { position: fixed !important; }
+.pos-relative { position: relative !important; }
+.pos-sticky { position: sticky !important; }
+.pos-inherit { position: inherit !important; }
+
+/* Position Values */
+.top-0 { top: 0 !important; }
+.right-0 { right: 0 !important; }
+.bottom-0 { bottom: 0 !important; }
+.left-0 { left: 0 !important; }
+.inset-0 { top: 0 !important; right: 0 !important; bottom: 0 !important; left: 0 !important; }
+.top-auto { top: auto !important; }
+.right-auto { right: auto !important; }
+.bottom-auto { bottom: auto !important; }
+.left-auto { left: auto !important; }
+

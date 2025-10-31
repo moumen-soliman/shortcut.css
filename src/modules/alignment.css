@@ -1,0 +1,58 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Alignment Utilities
+   ========================================================================== */
+
+/* Align Content */
+.align-inherit { align-content: inherit !important; }
+.align-unset { align-content: unset !important; }
+.align-center { align-content: center !important; }
+.align-start { align-content: start !important; }
+.align-end { align-content: end !important; }
+.align-left { align-content: left !important; }
+.align-right { align-content: right !important; }
+.align-baseline { align-content: baseline !important; }
+.align-first-baseline { align-content: first baseline !important; }
+.align-last-baseline { align-content: last baseline !important; }
+.align-stretch { align-content: stretch !important; }
+.align-space-between { align-content: space-between !important; }
+.align-space-around { align-content: space-around !important; }
+.align-space-evenly { align-content: space-evenly !important; }
+
+/* Align Items */
+.align-items-inherit { align-items: inherit !important; }
+.align-items-unset { align-items: unset !important; }
+.align-items-center { align-items: center !important; }
+.align-items-start { align-items: start !important; }
+.align-items-end { align-items: end !important; }
+.align-items-left { align-items: left !important; }
+.align-items-right { align-items: right !important; }
+.align-items-baseline { align-items: baseline !important; }
+.align-items-first-baseline { align-items: first baseline !important; }
+.align-items-last-baseline { align-items: last baseline !important; }
+.align-items-stretch { align-items: stretch !important; }
+
+/* Align Self */
+.align-self-inherit { align-self: inherit !important; }
+.align-self-unset { align-self: unset !important; }
+.align-self-center { align-self: center !important; }
+.align-self-start { align-self: start !important; }
+.align-self-end { align-self: end !important; }
+.align-self-left { align-self: left !important; }
+.align-self-right { align-self: right !important; }
+.align-self-baseline { align-self: baseline !important; }
+.align-self-first-baseline { align-self: first baseline !important; }
+.align-self-last-baseline { align-self: last baseline !important; }
+.align-self-stretch { align-self: stretch !important; }
+
+/* Global */
+.all-inherit { all: inherit !important; }
+.all-unset { all: unset !important; }
+

@@ -1,0 +1,29 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Z-Index Utilities
+   ========================================================================== */
+
+.z-index-custom { z-index: var(--custom-z-index) !important; }
+.z-index-auto { z-index: auto !important; }
+.z-index-0 { z-index: 0 !important; }
+.z-index-1 { z-index: 1 !important; }
+.z-index-2 { z-index: 2 !important; }
+.z-index-3 { z-index: 3 !important; }
+.z-index-4 { z-index: 4 !important; }
+.z-index-5 { z-index: 5 !important; }
+.z-index-10 { z-index: 10 !important; }
+.z-index-20 { z-index: 20 !important; }
+.z-index-30 { z-index: 30 !important; }
+.z-index-40 { z-index: 40 !important; }
+.z-index-50 { z-index: 50 !important; }
+.z-index-100 { z-index: 100 !important; }
+.z-index-999 { z-index: 999 !important; }
+.z-index-9999 { z-index: 9999 !important; }
+

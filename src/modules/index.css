@@ -1,0 +1,60 @@
+/*!
+ * Shortcut.css v2.0.0 - Modular Import
+ * Import all modules
+ */
+
+/* Variables and Base */
+@import './variables.css';
+@import './base.css';
+
+/* Layout */
+@import './display.css';
+@import './position.css';
+@import './flexbox.css';
+@import './grid.css';
+
+/* Spacing */
+@import './margin.css';
+@import './padding.css';
+
+/* Sizing */
+@import './width.css';
+@import './height.css';
+
+/* Typography */
+@import './typography.css';
+@import './text.css';
+
+/* Backgrounds & Borders */
+@import './backgrounds.css';
+@import './borders.css';
+
+/* Effects */
+@import './shadows.css';
+@import './opacity.css';
+@import './filters.css';
+
+/* Transitions & Animations */
+@import './transitions.css';
+@import './transforms.css';
+
+/* Interactions */
+@import './cursor.css';
+
+/* Utilities */
+@import './alignment.css';
+@import './justify.css';
+@import './overflow.css';
+@import './visibility.css';
+@import './z-index.css';
+@import './vertical-align.css';
+@import './float.css';
+@import './clear.css';
+@import './direction.css';
+@import './box-sizing.css';
+
+/* Modern Features */
+@import './modern-utilities.css';
+@import './dark-mode.css';
+@import './helpers.css';
+@import './print.css';

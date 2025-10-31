@@ -1,0 +1,23 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Transition Utilities
+   ========================================================================== */
+
+.transition { transition: all 0.3s ease !important; }
+.transition-custom { transition: var(--custom-transition) !important; }
+.transition-none { transition: none !important; }
+.transition-all { transition: all 0.3s ease !important; }
+.transition-colors { transition: color, background-color, border-color 0.3s ease !important; }
+.transition-opacity { transition: opacity 0.3s ease !important; }
+.transition-shadow { transition: box-shadow 0.3s ease !important; }
+.transition-transform { transition: transform 0.3s ease !important; }
+.transition-fast { transition: all 0.15s ease !important; }
+.transition-slow { transition: all 0.5s ease !important; }
+

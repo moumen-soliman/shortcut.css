@@ -1,0 +1,44 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+* {
+  font-family: var(--main-font);
+}
+
+section {
+  padding: var(--section-padding-values);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--headline-weight);
+  color: var(--headline-color);
+}
+
+p {
+  font-size: var(--paragraph-size);
+  color: var(--paragraph-color);
+}
+
+span {
+  font-size: var(--span-size);
+  color: var(--span-color);
+}
+
+.content {
+  padding: var(--div-content-padding-values);
+}
+

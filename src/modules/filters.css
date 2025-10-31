@@ -1,0 +1,34 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Filter Utilities
+   ========================================================================== */
+
+.filter-custom { filter: var(--custom-filter) !important; }
+.filter-none { filter: none !important; }
+.filter-blur { filter: blur(3px) !important; }
+.filter-blur-sm { filter: blur(4px) !important; }
+.filter-blur-md { filter: blur(8px) !important; }
+.filter-blur-lg { filter: blur(12px) !important; }
+.filter-brightness { filter: brightness(200%) !important; }
+.filter-brightness-50 { filter: brightness(50%) !important; }
+.filter-brightness-75 { filter: brightness(75%) !important; }
+.filter-brightness-125 { filter: brightness(125%) !important; }
+.filter-brightness-150 { filter: brightness(150%) !important; }
+.filter-grayscale { filter: grayscale(100%) !important; }
+.filter-grayscale-50 { filter: grayscale(50%) !important; }
+.filter-hue-rotate { filter: hue-rotate(90deg) !important; }
+.filter-hue-rotate-180 { filter: hue-rotate(180deg) !important; }
+.filter-invert { filter: invert(100%) !important; }
+.filter-invert-50 { filter: invert(50%) !important; }
+.filter-sepia { filter: sepia(100%) !important; }
+.filter-sepia-50 { filter: sepia(50%) !important; }
+.filter-saturate { filter: saturate(200%) !important; }
+.filter-saturate-50 { filter: saturate(50%) !important; }
+

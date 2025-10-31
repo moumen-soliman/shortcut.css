@@ -1,0 +1,40 @@
+# Development files
+.github/
+.vscode/
+.idea/
+docs/
+scripts/
+src/modules/
+
+# Config files
+.prettierrc
+.stylelintrc.json
+postcss.config.js
+postcss.minify.config.js
+
+# Test files
+__tests__/
+*.test.js
+*.spec.js
+
+# Documentation
+CONTRIBUTING.md
+CHANGELOG.md
+
+# Git files
+.gitignore
+.gitattributes
+
+# Misc
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Keep these
+!dist/
+!README.md
+!LICENSE
+!package.json
+

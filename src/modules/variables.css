@@ -1,0 +1,101 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   CSS Custom Properties (Variables)
+   ========================================================================== */
+
+:root {
+  /* Typography */
+  --main-font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --color: inherit;
+  --color-2: inherit;
+  --headline-color: inherit;
+  --headline-weight: 700;
+  --paragraph-color: inherit;
+  --paragraph-size: 1rem;
+  --span-color: inherit;
+  --span-size: 1rem;
+  
+  /* Spacing */
+  --padding-values: 0;
+  --margin-values: 0;
+  --section-padding-values: 0;
+  --div-content-padding-values: 0;
+
+  /* Custom Properties for Utility Classes */
+  --custom-margin: 0;
+  --custom-padding: 0;
+  --custom-width: auto;
+  --custom-min-width: auto;
+  --custom-max-width: none;
+  --custom-bg: transparent;
+  --custom-background-attachment: scroll;
+  --custom-bg-pos: 0 0;
+  --custom-bg-size: auto;
+  --custom-border: none;
+  --custom-box-shadow: none;
+  --custom-column-count: auto;
+  --custom-filter: none;
+  --custom-font-size: inherit;
+  --custom-height: auto;
+  --custom-max-height: none;
+  --custom-min-height: auto;
+  --custom-letter-spacing: normal;
+  --custom-line-height: normal;
+  --custom-list-style: disc;
+  --custom-outline: none;
+  --custom-perspective: none;
+  --custom-quotes: auto;
+  --custom-tab-size: 8;
+  --custom-txt-dec-color: currentColor;
+  --custom-txt-shadow: none;
+  --custom-txt-transform: none;
+  --custom-transition: all 0.3s ease;
+  --custom-v-align: baseline;
+  --custom-word-spacing: normal;
+  --custom-z-index: auto;
+  --custom-text-indent: 0;
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+* {
+  font-family: var(--main-font);
+}
+
+section {
+  padding: var(--section-padding-values);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--headline-weight);
+  color: var(--headline-color);
+}
+
+p {
+  font-size: var(--paragraph-size);
+  color: var(--paragraph-color);
+}
+
+span {
+  font-size: var(--span-size);
+  color: var(--span-color);
+}
+
+.content {
+  padding: var(--div-content-padding-values);
+}
+

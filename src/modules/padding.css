@@ -1,0 +1,45 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Padding Utilities
+   ========================================================================== */
+
+.padding-custom { padding: var(--custom-padding) !important; }
+.padding-0 { padding: 0 !important; }
+.padding-off { padding: 0 !important; }
+
+/* Directional Padding */
+.padding-top-off { padding-top: 0 !important; }
+.padding-bottom-off { padding-bottom: 0 !important; }
+.padding-left-off { padding-left: 0 !important; }
+.padding-right-off { padding-right: 0 !important; }
+
+/* Numeric Padding */
+.padding-1 { padding: 0.25rem !important; }
+.padding-2 { padding: 0.5rem !important; }
+.padding-3 { padding: 0.75rem !important; }
+.padding-4 { padding: 1rem !important; }
+.padding-5 { padding: 1.25rem !important; }
+.padding-6 { padding: 1.5rem !important; }
+.padding-8 { padding: 2rem !important; }
+.padding-10 { padding: 2.5rem !important; }
+.padding-12 { padding: 3rem !important; }
+.padding-16 { padding: 4rem !important; }
+
+/* Legacy pixel padding */
+.padding-10px { padding: 10px !important; }
+.padding-20px { padding: 20px !important; }
+.padding-30px { padding: 30px !important; }
+.padding-40px { padding: 40px !important; }
+.padding-50px { padding: 50px !important; }
+.padding-60px { padding: 60px !important; }
+.padding-70px { padding: 70px !important; }
+.padding-80px { padding: 80px !important; }
+.padding-90px { padding: 90px !important; }
+

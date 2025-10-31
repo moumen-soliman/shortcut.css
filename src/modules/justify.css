@@ -1,0 +1,36 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Justify Content Utilities
+   ========================================================================== */
+
+.justify-content-flex-start { justify-content: flex-start !important; }
+.justify-content-flex-end { justify-content: flex-end !important; }
+.justify-content-center { justify-content: center !important; }
+.justify-content-space-between { justify-content: space-between !important; }
+.justify-content-space-around { justify-content: space-around !important; }
+.justify-content-space-evenly { justify-content: space-evenly !important; }
+.justify-content-start { justify-content: start !important; }
+.justify-content-end { justify-content: end !important; }
+.justify-content-left { justify-content: left !important; }
+.justify-content-right { justify-content: right !important; }
+
+/* Justify Items */
+.justify-items-start { justify-items: start !important; }
+.justify-items-end { justify-items: end !important; }
+.justify-items-center { justify-items: center !important; }
+.justify-items-stretch { justify-items: stretch !important; }
+
+/* Justify Self */
+.justify-self-auto { justify-self: auto !important; }
+.justify-self-start { justify-self: start !important; }
+.justify-self-end { justify-self: end !important; }
+.justify-self-center { justify-self: center !important; }
+.justify-self-stretch { justify-self: stretch !important; }
+

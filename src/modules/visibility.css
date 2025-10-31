@@ -1,0 +1,19 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Visibility Utilities
+   ========================================================================== */
+
+.visibility-visible { visibility: visible !important; }
+.visibility-hidden { visibility: hidden !important; }
+.visibility-collapse { visibility: collapse !important; }
+.visibility-inherit { visibility: inherit !important; }
+.visible { visibility: visible !important; }
+.invisible { visibility: hidden !important; }
+

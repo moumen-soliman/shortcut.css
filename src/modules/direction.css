@@ -1,0 +1,15 @@
+/*!
+ * Shortcut.css v2.0.0
+ * A modern, lightweight utility-first CSS framework
+ * github.com/moumen-soliman/shortcut.css
+ * Licensed under MIT
+ */
+
+
+/* ==========================================================================
+   Direction Utilities
+   ========================================================================== */
+
+.direction-rtl { direction: rtl !important; }
+.direction-ltr { direction: ltr !important; }
+
